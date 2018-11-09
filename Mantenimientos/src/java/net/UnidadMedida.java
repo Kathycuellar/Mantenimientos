@@ -9,18 +9,18 @@ package net;
  *
  * @author Kathy
  */
-public class TipoEquipo {
+public class UnidadMedida {
     
-    private int IdTipoEquipo;
+    private int IdUnidadMedida;
     private String Nombre;
-    private String Descripcion;
+    private String Abreviacion;
 
-    public int getIdTipoEquipo() {
-        return IdTipoEquipo;
+    public int getIdUnidadMedida() {
+        return IdUnidadMedida;
     }
 
-    public void setIdTipoEquipo(int IdTipoEquipo) {
-        this.IdTipoEquipo = IdTipoEquipo;
+    public void setIdUnidadMedida(int IdUnidadMedida) {
+        this.IdUnidadMedida = IdUnidadMedida;
     }
 
     public String getNombre() {
@@ -31,13 +31,12 @@ public class TipoEquipo {
         this.Nombre = Nombre;
     }
 
-    public String getDescripcion() {
-        return Descripcion;
+    public String getAbreviacion() {
+        return Abreviacion;
     }
 
-    public void setDescripcion(String Descripcion) {
-        this.Descripcion = Descripcion;
+    public void setAbreviacion(String Abreviacion) {
+        this.Abreviacion = Abreviacion;
     }
-   
     
 }
